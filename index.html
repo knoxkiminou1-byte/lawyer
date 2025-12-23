@@ -3,102 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSB Law | Law Office of R. Steven Brown</title>
+    <title>R. Steven Brown | Premium Legal Counsel</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
-<body>
+<body class="luxury-theme">
 
-    <nav>
-        <div class="container nav-flex">
-            <div class="logo">RSB<span>LAW</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact" class="btn-small">Call Now</a></li>
-            </ul>
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="pre-logo">RSB<span>LAW</span></div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">R. STEVEN BROWN</a>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">The Practice</a></li>
+                    <li><a href="services.html" class="nav-link">Expertise</a></li>
+                    <li><a href="bio.html" class="nav-link">The Attorney</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Success Stories</a></li>
+                </ul>
+                <a href="tel:7075550123" class="cta-gold">PRIVATE CONSULTATION</a>
+            </div>
         </div>
     </nav>
 
-    <header id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Dedicated Advocacy. <br><span>Proven Results.</span></h1>
-                <p>California Certified Family Law Specialist representing clients in Lake, Mendocino, Napa, and Sonoma Counties since 2010.</p>
-                <div class="hero-btns">
-                    <a href="#contact" class="btn-primary">Schedule Consultation</a>
-                    <a href="#services" class="btn-secondary">Our Services</a>
+    <main id="main-content">
+        <section class="hero-split">
+            <div class="hero-left" data-speed="0.8">
+                <div class="hero-inner">
+                    <span class="reveal-text">ESTABLISHED 2010</span>
+                    <h1 class="main-title">
+                        <span class="line">Defending Your</span>
+                        <span class="line gold-italic">Future.</span>
+                        <span class="line">Protecting Your</span>
+                        <span class="line gold-italic">Legacy.</span>
+                    </h1>
+                    <p class="hero-sub">California Certified Family Law Specialist. High-stakes advocacy for North Bay's most complex legal matters.</p>
+                    <div class="hero-actions">
+                        <a href="#expertise" class="btn-luxury">Explore Expertise</a>
+                        <div class="scroll-indicator">
+                            <span class="mouse"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Legal Expertise</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Family Law</h3>
-                    <p>Certified Specialist in divorce, child custody, support, asset division, and domestic violence restraining orders. We provide compassionate yet aggressive representation.</p>
-                    <ul>
-                        <li>Divorce & Parentage</li>
-                        <li>Child & Spousal Support</li>
-                        <li>Guardianships</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <h3>Criminal Defense</h3>
-                    <p>Protecting your rights and freedom against felony and misdemeanor charges. We handle DUI, drug offenses, and juvenile cases throughout the North Bay Area.</p>
-                    <ul>
-                        <li>DUI Defense</li>
-                        <li>Drug Crimes</li>
-                        <li>Trial Representation</li>
-                    </ul>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <img src="headshot.jpg" alt="R. Steven Brown" class="hero-img-main">
+                    <div class="img-overlay"></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container about-flex">
-            <div class="about-image">
-                <img src="headshot.jpg" alt="R. Steven Brown">
+        <section class="luxury-stats">
+            <div class="container">
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <span class="stat-num" data-val="15">0</span><span class="plus">+</span>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-val="1000">0</span><span class="plus">+</span>
+                        <p>Cases Represented</p>
+                    </div>
+                    <div class="stat-card">
+                        <p class="stat-label">Certified Specialist</p>
+                        <p class="stat-desc">Family Law Board of California</p>
+                    </div>
+                </div>
             </div>
-            <div class="about-text">
-                <small>Meet the Attorney</small>
-                <h2>R. Steven Brown</h2>
-                <p>A fourth-generation Lake County native, Steven Brown has been practicing law in California since 2010. As a <strong>Certified Family Law Specialist</strong>, he has successfully represented thousands of clients in hundreds of trials and hearings.</p>
-                <p>Steven graduated cum laude from Empire Law School and is admitted to practice before the Supreme Court of California and the U.S. District Court for the Northern District of California.</p>
-                <a href="#contact" class="btn-primary">Learn More About Steven</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <footer id="contact">
-        <div class="container footer-grid">
-            <div>
-                <div class="logo">RSB<span>LAW</span></div>
-                <p>Law Office of R. Steven Brown</p>
+        <section id="expertise" class="focus-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="editorial-title">Exceptional <br>Representation</h2>
+                </div>
+                
+                <div class="luxury-accordion">
+                    <div class="acc-item active">
+                        <div class="acc-header">
+                            <span class="acc-num">01</span>
+                            <h3>High-Asset Family Law</h3>
+                        </div>
+                        <div class="acc-content">
+                            <p>Specializing in complex asset division, spousal support, and high-conflict custody disputes. We provide a shield of discretion and a sword of advocacy.</p>
+                            <ul class="luxury-list">
+                                <li>Divorce & Legal Separation</li>
+                                <li>Complex Asset Division</li>
+                                <li>Custody & Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
             </div>
-            <div>
-                <h4>Contact</h4>
-                <p>Serving Lake, Mendocino, Napa, & Sonoma</p>
-                <p>Phone: (Contact Number)</p>
-            </div>
-            <div>
-                <h4>Quick Links</h4>
-                <ul class="footer-links">
-                    <li><a href="#home">Back to Top</a></li>
-                    <li><a href="#services">Practice Areas</a></li>
-                    <li><a href="#about">Attorney Bio</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 RSB Law. All Rights Reserved.</p>
-        </div>
-    </footer>
+        </section>
+    </main>
+
+    <footer class="luxury-footer">
+        </footer>
 
     <script src="script.js"></script>
 </body>
